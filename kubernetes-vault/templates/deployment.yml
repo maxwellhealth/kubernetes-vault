@@ -1,9 +1,10 @@
+---
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: kubernetes-vault
 spec:
-  replicas: {{ .Values.replicaCount }}
+  replicas: 3
   template:
     metadata:
       labels:

@@ -7,7 +7,7 @@ service:
   dummyPort: 80
 vault:
   address: http://vault:8200
-  token: some-vault-token
+  token: your-vault-token
   vaultCertBackend: intermediate-ca
   vaultCertRole: kubernetes-vault
 resources:

@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ template "fullname" . }}
+  name: kubernetes-vault
 data:
   kubernetes-vault.yml: |
     # Dummy comment: https://github.com/kubernetes/helm/blob/master/docs/chart_template_guide/yaml_techniques.md#strings-in-yaml
